@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const fetch = require('node-fetch')
 const Eris = require('eris')
 app.use(bodyParser.json())
-let mongoose = require('mongoose')
+let mongoose = require('mongoose')       
 mongoose.connect("mongodb+srv://yousuf:41371755aa@cluster0.8dy7d.mongodb.net/data" , {
       useNewUrlParser: true,
       useUnifiedTopology: true,
